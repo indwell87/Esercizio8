@@ -1,0 +1,104 @@
+
+*{font-family: "Montserrat", system-ui;
+    font-style: normal;
+    color: white;
+}
+.smtext {
+    font-size: 15px;
+}
+.sottotitolo {
+    font-size: 25px
+}
+.bg-header1 {
+    background-image: url(./media/bg-1.jpg);
+    background-size:auto;
+    background-position: center;
+}
+.logo {
+    width: 20%;
+}
+.calendar, .calendarwh {
+    width: 50px;
+}
+.coinup {
+    width: 70%;
+}
+.btn1, .btn2 {  
+    color: #EBDB10 !important;
+    border: 2px solid #EBDB10 !important;
+    border-radius: 50px !important;
+    padding: 10px 30px !important; 
+}
+.tasto button:hover {
+    background-color: #EBDB10 !important;
+    color: #fff !important;
+}
+.tasto2 button:hover {
+    background-color: #10eb52 !important;
+    color: #fff !important;
+}
+.bg-main {
+    background-color: #23184c;
+}
+.homeform {
+    background-image:url(./media/bg-2.jpg);background-size:cover;
+    background-position:center;
+}
+.homeform {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box {
+    background-color: #23184c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px; 
+}
+.calendarwh {
+    width:50px; border-radius: 50%;
+}
+
+input[type="text"], input[type="mail"], input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #b313a6; 
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.bg-chisiamo {
+    background-color: #201A40
+}
+
+.logofut {
+    transform: scale(0.5);
+}
+
+h2 {
+    color: yellow !important;
+}
+.bg-speaker {
+    background-image: url(./media/bg-3.jpg); background-size:cover;
+    background-position: center;
+}
+.fotoinsab {
+    width: 30vh;
+}
+.fotoinsab {
+    margin-top: 100px; margin-bottom: 100px; 
+}
+.footer{
+    height: 25px; background-color: #212529; display: flex; justify-content: center; align-items:center;
+}
+.footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px;
+        height: 60px;}}
